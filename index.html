@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift-and-Shift Case Study</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 2px solid #00d4ff;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #00d4ff;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #00d4ff;
+            margin-top: 40px;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #00d4ff;
+        }
+        .image-frame {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .image-frame img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+        .caption {
+            text-align: center;
+            margin-bottom: 30px;
+            font-style: italic;
+            color: #bbb;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #00d4ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lift-and-Shift Case Study</h1>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Expertise</h2>
+            <ul>
+                <li>Cloud Migration</li>
+                <li>Infrastructure Optimization</li>
+                <li>Scalability and Performance</li>
+                <li>Cost Management</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Work</h2>
+            <p><span class="highlight">Project Name:</span> Cloud Migration</p>
+            <p><span class="highlight">Client:</span> Henry Black</p>
+            <p><span class="highlight">Start Date:</span> January 10, 2024</p>
+            <p><span class="highlight">Handover Date:</span> February 2, 2024</p>
+        </section>
+
+        <section class="section">
+            <h2>Portfolio Detail - Hero Image</h2>
+            <div class="image-frame">
+                <img src="https://i.pinimg.com/564x/e5/5f/2c/e55f2c2a142a19e3cf3dd578743cbf60.jpg" alt="Image 1">
+            </div>
+            <div class="caption">Build, streamline and evolve together with solution</div>
+            <p>Henry Corporation, a leading provider of enterprise software solutions, needed to transition their on-premises application infrastructure to AWS. The goal was to leverage cloud scalability, improve availability, and reduce operational costs. The company aimed to achieve a seamless migration with minimal disruption to their existing services.</p>
+        </section>
+
+        <section class="section">
+            <h2>Challenge</h2>
+            <p>Henry Corporation's on-premises infrastructure was reaching its capacity limits, resulting in performance bottlenecks and higher operational costs. The existing setup lacked the flexibility to scale efficiently and required substantial manual intervention for management. The company needed a robust cloud infrastructure that could handle variable workloads, ensure high availability, and provide better monitoring and scaling capabilities.</p>
+        </section>
+
+        <section class="section">
+            <h2>Solution</h2>
+            <p>Henry Corporation partnered with our team to execute a lift-and-shift migration strategy, utilizing the following AWS services:</p>
+            <ul>
+                <li><span class="highlight">EC2:</span> For provisioning scalable compute resources.</li>
+                <li><span class="highlight">S3:</span> For storing static content and backups.</li>
+                <li><span class="highlight">ELB:</span> To distribute incoming traffic and ensure high availability.</li>
+                <li><span class="highlight">Auto Scaling:</span> For automatically adjusting the number of EC2 instances based on load.</li>
+                <li><span class="highlight">CloudWatch:</span> For monitoring performance, setting up alarms, and logging.</li>
+            </ul>
+            <p><span class="highlight">Implementation Approach:</span></p>
+            <ol>
+                <li><span class="highlight">Assessment and Planning:</span> Evaluated existing infrastructure and application requirements.</li>
+                <li><span class="highlight">Migration:</span> Deployed EC2 instances, configured S3 buckets, set up ELB for traffic distribution, and established Auto Scaling policies.</li>
+                <li><span class="highlight">Testing and Optimization:</span> Conducted performance testing, adjusted scaling parameters, and fine-tuned monitoring and alerts.</li>
+                <li><span class="highlight">Go Live:</span> Transitioned the application to AWS with minimal downtime and ensured operational continuity.</li>
+            </ol>
+
+            <div class="image-frame">
+                <img src="https://i.pinimg.com/564x/39/15/5c/39155c52ea6452097072fb1ff55d270d.jpg" alt="Image 2">
+            </div>
+            <div class="caption">Implementation of AWS Cloud Services</div>
+        </section>
+
+        <section class="section">
+            <h2>Result</h2>
+            <p>The migration to AWS resulted in a more scalable and resilient infrastructure for Henry Corporation. The company now enjoys improved performance, reduced operational costs, and enhanced ability to handle varying workloads. The new cloud-based setup ensures high availability and provides comprehensive monitoring capabilities, allowing for proactive management and optimization.</p>
+
+            <div class="image-frame">
+                <img src="https://i.pinimg.com/736x/a7/73/7b/a7737b8f692cac97fa4082c118d980fe.jpg" alt="Image 3">
+            </div>
+            <div class="caption">Achieved High Availability and Performance</div>
+        </section>
+
+        <section class="section">
+            <h3>Moving to an AWS Architecture</h3>
+            <div class="image-frame">
+                <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MkfpTVLvd5PZlbhVVlcwOA.png" alt="AWS Architecture Diagram">
+            </div>
+            <div class="caption">Diagram illustrating the AWS architecture for lift-and-shift migration</div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 | All rights reserved by Henry Corporation. Visit us at <a href="https://go-cloud.tech/" target="_blank" rel="noopener noreferrer">Go Cloud Tech</a></p>
+        <a href="#">About</a> |
+        <a href="#">Contact</a> |
+        <a href="#">Career</a> |
+        <a href="#">Pricing</a>
+    </footer>
+</body>
+</html>
